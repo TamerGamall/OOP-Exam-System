@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Project
+{
+    internal class Subject
+    {
+        public string Name {  get; set; }
+        public Subject(string n)
+        {
+            Name = n;
+        }
+    }
+}
